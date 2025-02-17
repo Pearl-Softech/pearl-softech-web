@@ -27,7 +27,7 @@ const Nav: React.FC = () => {
                         Services
                     </ScrollLink>
                     <Link to={"/about"} onClick={closeMenuOnLinkClick}>About</Link>
-                    <Link to={"/contact"} onClick={closeMenuOnLinkClick}>Contact</Link>
+                    <Link to={"/contact"} onClick={closeMenuOnLinkClick} className="contact">Contact</Link>
                 </div>
             </div>
 

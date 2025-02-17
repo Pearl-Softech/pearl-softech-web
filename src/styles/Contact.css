@@ -46,7 +46,7 @@ form textarea {
   width: 100%;
   padding: 12px;
   border-radius: 5px;
-  border: 5px solid var(--primary-color);
+  border: 3px solid var(--primary-color);
   font-family: "Poppins", sans-serif;
   background-color: transparent;
   color: white;
@@ -54,16 +54,16 @@ form textarea {
 }
 
 form input:focus {
-  border: 5px solid white
+  border: 3px solid white
 }
 form textarea:focus {
-  border: 5px solid white;
+  border: 3px solid white;
 }
 
 form input::placeholder,
 form textarea::placeholder {
-  color: white;
-  font-weight: 500;
+  color: rgb(220, 220, 220);
+  font-weight: 300;
 }
 
 form textarea {
@@ -109,6 +109,7 @@ form button:hover {
 
 .company-info .body {
   font-weight: 200;
+  font-size: 15px;
 }
 
 .company-info .socials {

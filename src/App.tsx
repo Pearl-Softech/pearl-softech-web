@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import useSmoothScroll from './utils/Lenis'
+import About from './pages/About'
 
 const App: React.FC = () => {
   useSmoothScroll();
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         <main>
           <Routes>
             <Route index path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
           </Routes>
         </main>

@@ -1,0 +1,176 @@
+/* General container */
+.about-container {
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ABOUT Title */
+.about-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-title span {
+    color: var(--primary-color); /* Change to your primary color */
+}
+
+/* ABOUT Content Section */
+.about-content {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for small screens */
+    justify-content: space-between;
+}
+
+/* Text Description Section */
+.about-description p {
+    line-height: 1.8;
+}
+
+/* Journey Section */
+.about-journey h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-journey span {
+    color: var(--primary-color);
+}
+
+/* Services and Values Section in one row */
+.about-services,
+.about-values {
+    width: 48%; /* Makes both sections fit side by side */
+    margin-bottom: 20px;
+}
+
+.about-services h2,
+.about-values h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-services span,
+.about-values span {
+    color: var(--primary-color);
+}
+
+/* Change list dot to > */
+.about-services ul,
+.about-values ul,
+.digital-marketing-services ul,
+.platforms-served ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-services ul li,
+.about-values ul li,
+.digital-marketing-services ul li,
+.platforms-served ul li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.about-services ul li::before,
+.about-values ul li::before,
+.digital-marketing-services ul li::before,
+.platforms-served ul li::before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color); /* Optional: You can set a color for the symbol */
+}
+
+/* Digital Marketing Services */
+.digital-marketing-services h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.digital-marketing-services span {
+    color: var(--primary-color);
+}
+
+/* Platforms Served Section */
+.platforms-served h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.platforms-served span {
+    color: var(--primary-color);
+}
+
+/* Grid Layout for Platforms Served */
+.platforms-served ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+    gap: 20px; /* Adds space between columns */
+    list-style: none;
+    padding-left: 0;
+}
+
+.platforms-served ul li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.platforms-served ul li::before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color); /* Optional: You can set a color for the symbol */
+}
+
+/* Section styling */
+section {
+    border: 5px solid var(--primary-color);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-services-values{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Media query to wrap the Services and Values sections below 770px */
+@media (max-width: 770px) {
+    /* Stack Services and Values into a single column */
+    .about-services,
+    .about-values {
+        width: 100%; /* Makes both sections take the full width */
+    }
+
+    /* Adjust platforms served grid to 2 columns below 770px */
+    .platforms-served ul {
+        grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+    }
+}
+
+/* Media query to make all sections stack below 500px */
+@media (max-width: 500px) {
+    /* Stack Services and Values into a single column */
+    .about-services,
+    .about-values {
+        width: 100%; /* Makes both sections take the full width */
+    }
+
+    /* Adjust platforms served grid to 1 column below 500px */
+    .platforms-served ul {
+        grid-template-columns: 1fr; /* Creates 1 column */
+    }
+}
