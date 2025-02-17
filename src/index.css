@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --primary-color: #24CFA6;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", serif;
+  background-color: black;
+  color: white;
+  background: url("data:image/svg+xml,%3csvg%20width='1512'%20height='6397'%20viewBox='0%200%201512%206397'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_243_2)'%3e%3crect%20width='1512'%20height='6397'%20fill='%230c0c0c'%20/%3e%3cg%20opacity='0.4'%20filter='url(%23filter0_f_243_2)'%3e%3cpath%20d='M387.38%20137.553C355.297%20-107.774%20513.625%20-371.892%20752.935%20-403.188C992.246%20-434.485%201087.35%20-273.117%201119.44%20-27.7906C1151.52%20217.536%20993.208%20-36.6224%20796.88%20-10.947C557.569%2020.3495%20419.463%20382.88%20387.38%20137.553Z'%20fill='%2324cfa7'%20/%3e%3c/g%3e%3cg%20filter='url(%23filter1_f_243_2)'%3e%3ccircle%20cx='15'%20cy='3176'%20r='185'%20fill='%2324cfa7'%20/%3e%3c/g%3e%3cg%20filter='url(%23filter2_f_243_2)'%3e%3ccircle%20cx='1275'%20cy='840'%20r='64'%20fill='%2324cfa7'%20/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cfilter%20id='filter0_f_243_2'%20x='239.258'%20y='-551.062'%20width='1028.33'%20height='917.31'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'%20/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'%20/%3e%3cfeGaussianBlur%20stdDeviation='72'%20result='effect1_foregroundBlur_243_2'%20/%3e%3c/filter%3e%3cfilter%20id='filter1_f_243_2'%20x='-774'%20y='2387'%20width='1578'%20height='1578'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'%20/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'%20/%3e%3cfeGaussianBlur%20stdDeviation='302'%20result='effect1_foregroundBlur_243_2'%20/%3e%3c/filter%3e%3cfilter%20id='filter2_f_243_2'%20x='967'%20y='532'%20width='616'%20height='616'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'%20/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'%20/%3e%3cfeGaussianBlur%20stdDeviation='122'%20result='effect1_foregroundBlur_243_2'%20/%3e%3c/filter%3e%3cclipPath%20id='clip0_243_2'%3e%3crect%20width='1512'%20height='6397'%20fill='white'%20/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+}
+

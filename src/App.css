@@ -1,0 +1,12 @@
+.app-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-container main{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
