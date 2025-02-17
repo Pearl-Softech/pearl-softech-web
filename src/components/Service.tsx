@@ -1,6 +1,6 @@
 import "../styles/Service.css"
 
-const Service = () => {
+const Service: React.FC = () => {
     return (
         <div className="service-container">
             <div className="header">OUR <span>SERVICES</span></div>

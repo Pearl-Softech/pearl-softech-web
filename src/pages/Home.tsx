@@ -3,14 +3,14 @@ import "../styles/Home.css"
 import Service from '../components/Service'
 import Value from '../components/Value'
 
-const Home = () => {
-  return (
-    <div className="home-container">
-        <Hero />
-        <Service />
-        <Value />
-    </div>
-  )
+const Home: React.FC = () => {
+    return (
+        <div className="home-container">
+            <Hero />
+            <Service />
+            <Value />
+        </div>
+    )
 }
 
 export default Home

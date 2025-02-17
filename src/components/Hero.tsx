@@ -1,7 +1,7 @@
 import "../styles/Hero.css"
 import { Link } from 'react-router-dom'
 
-const Hero = () => {
+const Hero: React.FC = () => {
     return (
         <div className="hero-container">
             <div className="hero-text">
