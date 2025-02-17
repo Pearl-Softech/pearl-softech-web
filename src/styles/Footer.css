@@ -16,6 +16,11 @@
     font-weight: bolder;
 }
 
+.footer-container .logo a{
+    color: white;
+    text-decoration: none;
+}
+
 .footer-container .links{
     display: flex;
     gap: 20px;
@@ -36,4 +41,18 @@
 .footer-container .copy-right{
     font-size: 14px;
     color: rgb(215, 215, 215);
+}
+
+.footer-container .logo span{
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 750px){
+    .footer-container .copy-right{
+        display: none;
+    }
+
+    .footer-container .logo{
+        font-size: 20px;
+    }
 }

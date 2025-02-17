@@ -5,8 +5,10 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
+import useSmoothScroll from './utils/Lenis'
 
 const App: React.FC = () => {
+  useSmoothScroll();
   return (
     <BrowserRouter>
       <div className="app-container">

@@ -5,6 +5,7 @@
   height: auto;
   justify-content: center;
   align-items: center;
+  width: 90%;
 }
 
 .value-container .header {
@@ -22,10 +23,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  align-content: center;
 }
 
 .value-container .values .value {
-  width: 450px;
+  width: 550px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -61,4 +63,10 @@
 .value-container .values .value .desc {
   font-size: 14px;
   color: rgb(225, 225, 225);
+}
+
+@media screen and (max-width: 620px){
+  .value-container .values{
+    width: 100%;
+  }
 }

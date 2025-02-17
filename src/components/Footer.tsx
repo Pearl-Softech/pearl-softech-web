@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom"
 import "../styles/Footer.css"
 
 const Footer: React.FC = () => {
     return (
         <div className="footer-container">
-            <div className="logo"><span>PEARL </span>SOFTECH</div>
+            <div className="logo"><Link to="/"><span>PEARL </span>SOFTECH</Link></div>
             <div className='copy-right'>© 2025 Pearl Softech Pvt. Ltd. All rights reserved.</div>
             <div className="links">
                 <a href=""><i className='fa-brands fa-facebook'></i></a>

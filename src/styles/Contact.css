@@ -46,7 +46,7 @@ form textarea {
   width: 100%;
   padding: 12px;
   border-radius: 5px;
-  border: 2px solid white;
+  border: 5px solid var(--primary-color);
   font-family: "Poppins", sans-serif;
   background-color: transparent;
   color: white;
@@ -54,16 +54,16 @@ form textarea {
 }
 
 form input:focus {
-  border: 2px solid var(--primary-color);
+  border: 5px solid white
 }
 form textarea:focus {
-  border: 2px solid var(--primary-color);
+  border: 5px solid white;
 }
 
 form input::placeholder,
 form textarea::placeholder {
   color: white;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 form textarea {
@@ -73,7 +73,7 @@ form textarea {
 form button {
   width: 100%;
   padding: 12px;
-  background-color: white;
+  background-color: var(--primary-color);
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -82,10 +82,12 @@ form button {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   transition: background-color 0.3s, color 0.3s;
+  align-self: center;
 }
 
 form button:hover {
-  background-color: var(--primary-color);
+  background-color: white;
+  transition: 0.3s ease-in-out;
 }
 
 .contact-container .company-info {
@@ -175,7 +177,7 @@ form button:hover {
   }
 
   .contact-container .title {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   .contact-form {
