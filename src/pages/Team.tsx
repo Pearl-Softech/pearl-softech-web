@@ -27,7 +27,7 @@ const teamMembers = [
         image: memberPhoto2,
         socials: {
             facebook: "https://www.facebook.com/moti.basnet.92",
-            linkedin: "",
+            linkedin: "#",
             twitter: "#",
             github: "#",
         }
@@ -45,7 +45,7 @@ const teamMembers = [
     },
     {
         name: "Nirajan Basnet",
-        position: "Cyber Security & Digital Marketing",
+        position: "Director of Engineering",
         image: memberPhoto4,
         socials: {
             facebook: "https://www.facebook.com/profile.php?id=61563473620678",
@@ -56,7 +56,7 @@ const teamMembers = [
     },
     {
         name: "Rajan Naeupane",
-        position: "Event & Program Director",
+        position: "Chief Innovation Officer",
         image: memberPhoto5,
         socials: {
             facebook: "https://www.facebook.com/profile.php?id=61553572617056",
@@ -67,7 +67,7 @@ const teamMembers = [
     },
     {
         name: "Yubraj Basyal",
-        position: "Graphics & Video Editor",
+        position: "Chief Digital Officer",
         image: memberPhoto6,
         socials: {
             facebook: "",
