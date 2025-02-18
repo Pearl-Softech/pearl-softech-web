@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import useSmoothScroll from './utils/Lenis'
 import About from './pages/About'
 import Team from './pages/Team'
+import Page404 from './pages/Page404'
 
 const App: React.FC = () => {
   useSmoothScroll();
@@ -23,6 +24,7 @@ const App: React.FC = () => {
             <Route path='/about' element={<About />} />
             <Route path='/team' element={<Team />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='*' element={<Page404 />} />
           </Routes>
         </main>
         <footer>

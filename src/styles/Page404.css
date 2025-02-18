@@ -1,0 +1,15 @@
+.page404-container{
+    width: 90%;
+    height: 75dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page404-container .content{
+    background-color: var(--primary-color);
+    padding: 10px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+}
