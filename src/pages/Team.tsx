@@ -16,7 +16,7 @@ const teamMembers = [
         image: memberPhoto1,
         socials: {
             facebook: "https://www.facebook.com/tilakraj.bhandari.5",
-            linkedin: "",
+            linkedin: "https://www.linkedin.com/in/tilak-raj-bhhandari-b5049334b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             twitter: "#",
             github: "#",
         }
@@ -49,7 +49,7 @@ const teamMembers = [
         image: memberPhoto4,
         socials: {
             facebook: "https://www.facebook.com/profile.php?id=61563473620678",
-            linkedin: "",
+            linkedin: "https://www.linkedin.com/in/nirajan-basnet-b3526b321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             twitter: "#",
             github: "#",
         }
@@ -60,7 +60,7 @@ const teamMembers = [
         image: memberPhoto5,
         socials: {
             facebook: "https://www.facebook.com/profile.php?id=61553572617056",
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/rajan-neupane-598191312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             twitter: "#",
             github: "",
         }
