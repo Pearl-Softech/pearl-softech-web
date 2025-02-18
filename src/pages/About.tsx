@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { gsap } from "gsap";
 import "../styles/About.css";
 import journeyPicture from "../assets/images/journey.png";
