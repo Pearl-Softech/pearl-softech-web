@@ -30,32 +30,39 @@ const Hero: React.FC = () => {
     const revealText = () => {
         if (heroTextRef.current) {
             const text = heroTextRef.current;
-            const chars = text.textContent?.split('') || [];
+            const words = text.textContent?.split(' ') || [];
             text.textContent = ''; // Empty the text content
-
-            chars.forEach((char, index) => {
+    
+            words.forEach((word, index) => {
                 const span = document.createElement('span');
-                span.textContent = char;
+                span.textContent = word + ' '; // Add space after each word
                 text.appendChild(span);
+    
+                // Apply color to "SECURE" and "INNOVATE"
+                if (word === 'SECURE' || word === 'INNOVATE') {
+                    span.style.color = 'var(--primary-color)';
+                }
+    
                 gsap.fromTo(span, {
                     opacity: 0,
                     y: 50,
                 }, {
                     opacity: 1,
                     y: 0,
-                    delay: index * 0.1,
+                    delay: index * 0.9,
                     duration: 1,
                     ease: 'power2.out',
                 });
             });
         }
     };
+    
 
     // Start the animation when the component is mounted
     useEffect(() => {
-        increaseNumbers(1200, setCustomerCount);  // Example: 1200 customers
-        increaseNumbers(1000, setProjectCount);    // Example: 500 projects
-        increaseNumbers(20, setYearCount);        // Example: 15 years in business
+        increaseNumbers(20, setCustomerCount);  // Example: 1200 customers
+        increaseNumbers(18, setProjectCount);    // Example: 500 projects
+        increaseNumbers(2, setYearCount);        // Example: 15 years in business
 
         revealText(); // Trigger the reveal animation
     }, []);

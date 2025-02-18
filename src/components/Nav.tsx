@@ -23,6 +23,7 @@ const Nav: React.FC = () => {
                 </div>
                 <div className="links">
                     <Link to={"/about"} onClick={closeMenuOnLinkClick}>About</Link>
+                    <Link to={"/team"} onClick={closeMenuOnLinkClick}>Team</Link>
                     <ScrollLink to="services" smooth={true} duration={500} onClick={closeMenuOnLinkClick} className="services-link">
                         Services
                     </ScrollLink>
@@ -33,6 +34,7 @@ const Nav: React.FC = () => {
             {isMenuOpen && (
                 <div className="second-row">
                     <Link to={"/about"} onClick={closeMenuOnLinkClick}>About</Link>
+                    <Link to={"/team"} onClick={closeMenuOnLinkClick}>Team</Link>
                     <ScrollLink to="services" smooth={true} duration={500} onClick={closeMenuOnLinkClick} className="services-link">
                         Services
                     </ScrollLink>

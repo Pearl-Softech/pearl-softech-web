@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import useSmoothScroll from './utils/Lenis'
 import About from './pages/About'
+import Team from './pages/Team'
 
 const App: React.FC = () => {
   useSmoothScroll();
@@ -20,6 +21,7 @@ const App: React.FC = () => {
           <Routes>
             <Route index path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
+            <Route path='/team' element={<Team />} />
             <Route path='/contact' element={<Contact />} />
           </Routes>
         </main>

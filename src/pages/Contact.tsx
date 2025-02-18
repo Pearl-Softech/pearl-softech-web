@@ -12,6 +12,7 @@ const Contact: React.FC = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
 
     const SERVER_IP = import.meta.env.VITE_SERVER_BACKEND_IP;
+    const API_KEY = import.meta.env.VITE_API_KEY;
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -32,7 +33,7 @@ const Contact: React.FC = () => {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
-                'x-api-key': '10164e0ea0c44fbb1195dbf552f35100'
+                'x-api-key': `${API_KEY}`
             },
             body: JSON.stringify(payload)
         };

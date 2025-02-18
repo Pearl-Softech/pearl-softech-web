@@ -1,0 +1,98 @@
+.team-component-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.team-component-container .title{
+    font-size: 25px;
+    font-weight: bolder;
+    border-bottom: 5px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.team-component-container .title span{
+    color: var(--primary-color);
+}
+
+.team-component-container .wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 70%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team-component-container .wrapper .right{
+    height: 300px;
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 15px 15px 0px var(--primary-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.team-component-container .wrapper .right:hover{
+    box-shadow: -15px -15px 0px var(--primary-color);
+}
+
+
+.team-component-container .wrapper .right img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.team-component-container .wrapper .left{
+    width: 45%;
+}
+
+.team-component-container .wrapper .left .content{
+    text-wrap: wrap;
+    color: rgb(235, 235, 235);
+}
+
+.team-component-container .wrapper .left .button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.team-component-container .wrapper .left .button a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-component-container .wrapper .left .button:hover{
+    transform: scale(1.1);
+}
+
+.team-component-container .wrapper .left .button a:hover{
+    background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 770px){
+    .team-component-container .wrapper{
+        width: 100%;
+    }
+
+    .team-component-container .wrapper .right{
+        width: 100%;
+    }
+
+    .team-component-container .wrapper .left{
+        width: 100%;
+    }
+}
+

@@ -135,13 +135,14 @@ section {
     margin-bottom: 10px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #24cfa711;
+    background-color: #24cfa718;
 }
 
 .about-services-values{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-content: center;
     gap: 10px;
     flex-wrap: wrap;
 }

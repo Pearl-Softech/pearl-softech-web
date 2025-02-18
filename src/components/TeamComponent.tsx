@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import "../styles/AboutComponent.css";
-import homeAbout from "../assets/images/home-about.webp";
+import "../styles/TeamComponent.css";
+import homeTeam from "../assets/images/home-team.jpeg";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -8,7 +8,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
-const AboutComponent: React.FC = () => {
+const TeamComponent: React.FC = () => {
   useEffect(() => {
     // Select the left and right elements
     const left = document.querySelector(".left");
@@ -50,27 +50,27 @@ const AboutComponent: React.FC = () => {
   }, []);
 
   return (
-    <div className="about-component-container">
+    <div className="team-component-container">
       <div className="title">
-        <span>ABOUT</span> US
+        OUR <span>TEAM</span>
       </div>
       <div className="wrapper">
-        <div className="right">
-          <img src={homeAbout} alt="About" />
-        </div>
         <div className="left">
           <div className="content">
             <div className="body">
-              Your trusted partner in Digital Marketing, Software Development, Cloud Services, Penetration Testing, and Cybersecurity. Our mission is to empower businesses and individuals by providing secure, scalable, and innovative solutions that help businesses thrive in the digital age.
+            Our team is a passionate group of experts, each with their own specialized skills, working together to deliver innovative solutions. From visionary leadership to hands-on technical expertise, we empower businesses to succeed in the digital world.
             </div>
             <div className="button">
-              <Link to={"/about"}>LEARN MORE</Link>
+              <Link to={"/team"}>VIEW MEMBERS</Link>
             </div>
           </div>
+        </div>
+        <div className="right">
+          <img src={homeTeam} alt="About" />
         </div>
       </div>
     </div>
   );
 };
 
-export default AboutComponent;
+export default TeamComponent;
