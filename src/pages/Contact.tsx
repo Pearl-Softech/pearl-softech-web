@@ -155,10 +155,10 @@ const Contact: React.FC = () => {
                         <div><i className="fa-solid fa-envelope"></i> pearlsoftechorg@gmail.com</div>
                         </div>
                         <div className="socials">
-                            <a href="https://www.facebook.com/profile.php?id=61569672626784&mibextid=ZbWKwL"><i className="fa-brands fa-facebook"></i></a>
-                            <a href="https://linkedin.com/pearl-softech"><i className="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61569672626784"><i className="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/pearl-softech/"><i className="fa-brands fa-linkedin"></i></a>
                             <a href="https://github.com/pearl-softech"><i className="fa-brands fa-x-twitter"></i></a>
-                            <a href="https://github.com/pearl-softech"><i className="fa-brands fa-github"></i></a>
+                            <a href="https://x.com/pearl_soft01"><i className="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
