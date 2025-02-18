@@ -75,6 +75,8 @@ const Hero: React.FC = () => {
                 <p>Your Trusted Partner for Digital Marketing, Cloud, Software, and Cybersecurity Solutions. Providing innovative solutions to enhance digital presence, optimize operational efficiency</p>
             </div>
 
+            <br />
+
             {/* Buttons */}
             <div className="buttons">
                 <Link to={"/contact"}><p className='join-btn'>JOIN US</p></Link>
