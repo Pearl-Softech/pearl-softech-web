@@ -1,182 +1,127 @@
-/* General container */
-.about-container {
-    padding: 20px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-/* ABOUT Title */
-.about-title {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.about-title span {
-    color: var(--primary-color); /* Change to your primary color */
-}
-
-/* ABOUT Content Section */
-.about-content {
-    margin-top: 10px;
+.about-container{
+    width: 90%;
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping for small screens */
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
-/* Text Description Section */
-.about-description p {
-    line-height: 1.8;
+.about-container .header{
+    font-size: 25px;
+    font-weight: bolder;
 }
 
-/* Journey Section */
-.about-journey h2 {
-    margin-bottom: 10px;
-    font-size: 20px;
+.about-container .title{
+    font-size: 18px;
     font-weight: bold;
 }
 
-.about-journey span {
+.about-container span{
     color: var(--primary-color);
 }
 
-/* Services and Values Section in one row */
-.about-services,
-.about-values {
-    width: 48%; /* Makes both sections fit side by side */
-    margin-bottom: 20px;
+.about-container .content .first-row{
+    display: flex;
+    gap: 10px;
 }
 
-.about-services h2,
-.about-values h2 {
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: bold;
+.about-container .content .first-row .right{
+    display: flex;
+    flex-direction: column;
+    background-color: #24cfa717;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 10px;
 }
 
-.about-services span,
-.about-values span {
-    color: var(--primary-color);
-}
-
-/* Change list dot to > */
-.about-services ul,
-.about-values ul,
-.digital-marketing-services ul,
-.platforms-served ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.about-services ul li,
-.about-values ul li,
-.digital-marketing-services ul li,
-.platforms-served ul li {
-    position: relative;
-    padding-left: 20px;
-}
-
-.about-services ul li::before,
-.about-values ul li::before,
-.digital-marketing-services ul li::before,
-.platforms-served ul li::before {
-    content: ">";
-    position: absolute;
-    left: 0;
-    color: var(--primary-color); /* Optional: You can set a color for the symbol */
-}
-
-/* Digital Marketing Services */
-.digital-marketing-services h2 {
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.digital-marketing-services span {
-    color: var(--primary-color);
-}
-
-/* Platforms Served Section */
-.platforms-served h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.platforms-served span {
-    color: var(--primary-color);
-}
-
-/* Grid Layout for Platforms Served */
-.platforms-served ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
-    gap: 20px; /* Adds space between columns */
-    list-style: none;
-    padding-left: 0;
-}
-
-.platforms-served ul li {
-    position: relative;
-    padding-left: 20px;
-}
-
-.platforms-served ul li::before {
-    content: ">";
-    position: absolute;
-    left: 0;
-    color: var(--primary-color); /* Optional: You can set a color for the symbol */
-}
-
-/* Section styling */
-section {
-    margin-bottom: 10px;
+.about-container .content .first-row .left{
+    background-color: #24cfa717;
     padding: 20px;
     border-radius: 10px;
-    background-color: #24cfa718;
-}
-
-.about-services-values{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container .content .first-row .right .content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about-container .content .first-row .right .content .left-content{
+    width: 50%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -8px -8px 0px var(--primary-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.about-container .content .first-row .right .content .left-content:hover{
+    box-shadow: 8px 8px 0px var(--primary-color);
+}
+
+.about-container .content .first-row .right .content .left-content img{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.about-container .content .first-row .right .content .right-content{
+    width: 50%;
+}
+
+.about-container .content .second-row{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-    flex-wrap: wrap;
 }
 
-ul li {
-    opacity: 0; /* Initially hidden */
-    transform: translateX(-100px); /* Initially off-screen to the left */
-  }
-  
+.about-container .services{
+    background-color: #24cfa717;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 10px;
+}
 
-/* Media query to wrap the Services and Values sections below 770px */
-@media (max-width: 770px) {
-    /* Stack Services and Values into a single column */
-    .about-services,
-    .about-values {
-        width: 100%; /* Makes both sections take the full width */
-    }
+.about-container .platform{
+    background-color: #24cfa717;
+    padding: 15px;
+    border-radius: 10px;
+}
 
-    /* Adjust platforms served grid to 2 columns below 770px */
-    .platforms-served ul {
-        grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+.about-container ul{
+    list-style-type: none;
+}
+
+.primary-color{
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 770px){
+    .about-container .content .first-row{
+        flex-wrap: wrap;
     }
 }
 
-/* Media query to make all sections stack below 500px */
-@media (max-width: 500px) {
-    /* Stack Services and Values into a single column */
-    .about-services,
-    .about-values {
-        width: 100%; /* Makes both sections take the full width */
+@media screen and (max-width: 1280px){
+    .about-container .content .first-row .right .content{
+        flex-wrap: wrap;
+    }
+    .about-container .content .first-row .right .content .left-content{
+        width: 100%;
     }
 
-    /* Adjust platforms served grid to 1 column below 500px */
-    .platforms-served ul {
-        grid-template-columns: 1fr; /* Creates 1 column */
+    .about-container .content .first-row .right .content .right-content{
+        width: 100%;
     }
 }
