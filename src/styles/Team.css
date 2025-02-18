@@ -55,6 +55,7 @@
   margin-bottom: 10px;
   cursor: pointer;
   overflow: hidden;
+  background-color: black;
 }
 
 .team-card img {
@@ -70,6 +71,7 @@
 .team-card img:hover{
     transform: scale(1.09);
     overflow: hidden;
+    opacity: 0.5;
 }
 
 .team-info h3 {
