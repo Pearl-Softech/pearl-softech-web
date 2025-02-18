@@ -21,7 +21,7 @@ const AboutComponent: React.FC = () => {
         opacity: 1,             // Fade in
         x: 0,                   // End at its normal position
         duration: 0.6,
-        ease: "power1.out",
+        ease: "power2.out",
         scrollTrigger: {
           trigger: left,
           start: "top 80%",     // Start animation when element reaches 80% from the top
@@ -38,7 +38,7 @@ const AboutComponent: React.FC = () => {
         opacity: 1,             // Fade in
         x: 0,                   // End at its normal position
         duration: 0.6,
-        ease: "power1.out",
+        ease: "power2.out",
         scrollTrigger: {
           trigger: right,
           start: "top 80%",     // Start animation when element reaches 80% from the top

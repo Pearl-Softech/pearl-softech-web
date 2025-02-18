@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
                 }, {
                     opacity: 1,
                     y: 0,
-                    delay: index * 0.9,
+                    delay: index * 0.5,
                     duration: 1,
                     ease: 'power2.out',
                 });

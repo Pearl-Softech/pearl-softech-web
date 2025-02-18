@@ -29,7 +29,7 @@ const Value: React.FC = () => {
                     y: 0,        // End position (original position)
                     duration: 0.6,
                     delay: index * 0.2, // Stagger the animation based on index
-                    ease: 'power1.out',  // Smooth easing for the animation
+                    ease: 'power2.out',  // Smooth easing for the animation
                     scrollTrigger: {
                         trigger: value,    // Element to trigger the animation on
                         start: 'top 80%',   // Start when the element reaches 80% from the top of the viewport

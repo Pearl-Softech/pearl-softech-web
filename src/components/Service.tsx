@@ -23,7 +23,7 @@ const Service: React.FC = () => {
                     x: 0,                       // Final position (original position)
                     duration: 0.6,              // Animation duration
                     delay: index * 0.2,         // Stagger animation based on index
-                    ease: 'power1.out',         // Easing for the animation
+                    ease: 'power2.out',         // Easing for the animation
                     scrollTrigger: {
                         trigger: service,      // Element to trigger the animation on
                         start: 'top 80%',       // Start when the element reaches 80% from the top of the viewport

@@ -89,7 +89,7 @@ const Team = () => {
             {
                 opacity: 1, // Final opacity (visible)
                 duration: 1,
-                stagger: 0.5, // Stagger delay (0.3s between each card)
+                stagger: 0.3, // Stagger delay (0.3s between each card)
                 ease: "power1.out",
             }
         );
