@@ -69,7 +69,8 @@
 .nav-container .first-row .bar{
     display: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
 .nav-container .first-row .bar:hover{

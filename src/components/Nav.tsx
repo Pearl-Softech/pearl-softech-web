@@ -22,6 +22,7 @@ const Nav: React.FC = () => {
                     <i className={`fa-solid ${isMenuOpen ? "fa-xmark" : "fa-bars"}`}></i>
                 </div>
                 <div className="links">
+                <Link to={"/"} onClick={closeMenuOnLinkClick}>Home</Link>
                     <Link to={"/about"} onClick={closeMenuOnLinkClick}>About</Link>
                     <Link to={"/team"} onClick={closeMenuOnLinkClick}>Team</Link>
                     <ScrollLink to="services" smooth={true} duration={500} onClick={closeMenuOnLinkClick} className="services-link">
@@ -33,6 +34,7 @@ const Nav: React.FC = () => {
 
             {isMenuOpen && (
                 <div className="second-row">
+                    <Link to={"/"} onClick={closeMenuOnLinkClick}>Home</Link>
                     <Link to={"/about"} onClick={closeMenuOnLinkClick}>About</Link>
                     <Link to={"/team"} onClick={closeMenuOnLinkClick}>Team</Link>
                     <ScrollLink to="services" smooth={true} duration={500} onClick={closeMenuOnLinkClick} className="services-link">
