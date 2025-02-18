@@ -23,6 +23,7 @@
 
 .hero-container .hero-text p {
   width: 60%;
+  color: rgb(235, 235, 235);
 }
 
 .hero-container .numbers-section {
@@ -119,8 +120,8 @@
   }
 
   .hero-container .numbers-section{
-    border-top: 0.1px solid rgb(37, 37, 37);
-    border-bottom: 0.1px solid rgb(37, 37, 37);
+    border-top: 0.1px solid rgb(45, 45, 45);
+    border-bottom: 0.1px solid rgb(45, 45,45);
     padding-top: 25px;
     padding-bottom: 25px;
   }

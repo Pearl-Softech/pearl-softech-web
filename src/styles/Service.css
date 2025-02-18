@@ -10,6 +10,8 @@
 .service-container .header {
   font-weight: bolder;
   font-size: 25px;
+  border-bottom: 5px solid var(--primary-color);
+  border-radius: 10px;
 }
 
 .service-container .header span {

@@ -11,6 +11,8 @@
 .value-container .header {
   font-weight: bolder;
   font-size: 25px;
+  border-bottom: 5px solid var(--primary-color);
+    border-radius: 10px;
 }
 
 .value-container .header span {
@@ -62,7 +64,7 @@
 
 .value-container .values .value .desc {
   font-size: 14px;
-  color: rgb(225, 225, 225);
+  color: rgb(235, 235, 235);
 }
 
 @media screen and (max-width: 620px){

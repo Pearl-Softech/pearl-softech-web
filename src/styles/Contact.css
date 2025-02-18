@@ -62,7 +62,7 @@ form textarea:focus {
 
 form input::placeholder,
 form textarea::placeholder {
-  color: rgb(220, 220, 220);
+  color: rgb(235, 235, 235);
   font-weight: 300;
 }
 

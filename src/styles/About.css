@@ -1,7 +1,6 @@
 /* General container */
 .about-container {
     padding: 20px;
-    margin: 0 auto;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -20,7 +19,7 @@
 
 /* ABOUT Content Section */
 .about-content {
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap; /* Allows wrapping for small screens */
     justify-content: space-between;
@@ -133,10 +132,10 @@
 
 /* Section styling */
 section {
-    border: 5px solid var(--primary-color);
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
+    background-color: #24cfa711;
 }
 
 .about-services-values{
@@ -146,6 +145,12 @@ section {
     gap: 10px;
     flex-wrap: wrap;
 }
+
+ul li {
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-100px); /* Initially off-screen to the left */
+  }
+  
 
 /* Media query to wrap the Services and Values sections below 770px */
 @media (max-width: 770px) {
