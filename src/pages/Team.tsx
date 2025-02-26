@@ -33,14 +33,14 @@ const teamMembers = [
         }
     },
     {
-        name: "Rajesh Thapa",
-        position: "Lead Developer",
+        name: "Yubraj Basyal",
+        position: "Chief Digital Officer",
         image: memberPhoto3,
         socials: {
-            facebook: "#",
-            linkedin: "https://www.linkedin.com/in/devrajeshthapa",
+            facebook: "",
+            linkedin: "",
             twitter: "#",
-            github: "https://github.com/devRajeshThapa",
+            github: "#",
         }
     },
     {
@@ -66,14 +66,14 @@ const teamMembers = [
         }
     },
     {
-        name: "Yubraj Basyal",
-        position: "Chief Digital Officer",
+        name: "Rajesh Thapa",
+        position: "Lead Developer",
         image: memberPhoto6,
         socials: {
-            facebook: "",
-            linkedin: "",
+            facebook: "#",
+            linkedin: "https://www.linkedin.com/in/devrajeshthapa",
             twitter: "#",
-            github: "#",
+            github: "https://github.com/devRajeshThapa",
         }
     },
 ];
