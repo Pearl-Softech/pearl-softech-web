@@ -4,6 +4,7 @@ import Service from '../components/Service'
 import Value from '../components/Value'
 import AboutComponent from '../components/AboutComponent'
 import TeamComponent from '../components/TeamComponent'
+import Testimonial from '../components/Testimonial'
 
 const Home: React.FC = () => {
     return (
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
             <TeamComponent />
             <Service />
             <Value />
+            <Testimonial />
         </div>
     )
 }
