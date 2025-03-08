@@ -12,7 +12,7 @@ import memberPhoto6 from "../assets/images/member/6.jpg";
 const teamMembers = [
     {
         name: "Tilak Raj Bhandari",
-        position: "Adviser",
+        position: "Advisor",
         image: memberPhoto1,
         socials: {
             facebook: "https://www.facebook.com/tilakraj.bhandari.5",
